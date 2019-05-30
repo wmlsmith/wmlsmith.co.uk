@@ -1,0 +1,108 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  line-height: 1.4s;
+  color: #454552;
+}
+
+h1 {
+    margin: 0;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #454552
+}
+
+a:hover {
+  color: #e85a71;
+}
+
+ul {
+  margin-top: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+}
+
+.cv-header {
+  background-color: #454552;
+  letter-spacing: 5px;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 10px solid #e85a71;
+}
+
+.sidebar {
+  font-size: 1em;
+  flex: 1;
+  background-color: #454552;
+}
+
+.sidebar a {
+  margin-left: -10px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.sidebar-info {
+  margin-bottom: 15px;
+}
+.sidebar-info ul {
+  margin-top: 30px;
+}
+
+.icons {
+  position: relative;
+  top: 7px;
+  width: 25px;
+  height: 25px;
+  fill: #e85a71;
+  padding-right: 15px;
+}
+
+.main-content {
+  flex: 3;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.cv-section-heading {
+  font-weight: 700;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  border-bottom: 7px solid #e85a71;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
